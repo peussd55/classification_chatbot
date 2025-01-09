@@ -57,7 +57,7 @@ if menu == "법정감염병코드검색":
         # 결과 출력
         st.markdown("<div style='background-color: #D4EDDA; padding: 10px; border-radius: 5px;'>"
             f"<p style='color: #155724; font-weight: bold;'>입력된 감염병 키워드: {test_sentence}</p>"
-            f"<p style='color: #155724; font-weight: bold;'>가장 유사한 감염병명: {most_similar_code}</p>"
+            f"<p style='color: #155724; font-weight: bold;'>가장 유사한 감염병코드: {most_similar_code}</p>"
             f"<p style='color: #155724; font-weight: bold;'>유사도 점수: {similarity_score:.2f}</p>"
             "</div>", unsafe_allow_html=True)
 
