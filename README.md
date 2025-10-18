@@ -2,6 +2,14 @@
 
 > 📌 **분류**: 자연어처리(NLP) - 분류
 
+## 🛠️ 기술 스택 (Tech Stack)
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
+</p>
+
 ## 프로젝트 개요
 국내 법정감염병 데이터를 기반으로 진단명과 법정감염병 분류 코드를 자동으로 연결해 주는 Streamlit 애플리케이션입니다. 의료 현장에서 사용하는 진단명을 입력하면 TF-IDF 기반의 질의-문서 유사도 분석을 통해 가장 적합한 감염병 코드를 추천합니다. 또한 동일한 데이터셋을 활용하여 진단명에 가장 유사한 감염병명을 탐색할 수 있어 역방향 탐색이 가능합니다.
 
